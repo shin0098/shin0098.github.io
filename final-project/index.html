@@ -12,42 +12,69 @@
     <!-- custom style sheet -->
     <link rel="stylesheet" href="css/main.css">
 
-    <title>Mobile Mockup</title>
+    <title>final-project</title>
 </head>
 
 <body>
     <div class="wrap">
-    <header class="header-area">
-        <nav>
-            <ul>
-                <li>logo</li>
-                <li>Home</li>
-                <li>Abount Us</li>
-                <li>Servies</li>
-                <li>Team</li>
-                <li>Contact</li>
-                <li>
-                    <div>
-                        <form id="form">
-                            <input type="search" id="search" name="search" placeholder="Search">
-                        </form>
-                        <button>click<i class="fa fa-play"></i></button>
+        <!-- start header -->
+        <header class="header-area">
+            <!-- start navigation -->
+            <nav>
+                <ul>
+                    <li class="main-logo"><a id="Home">logo</a></li>
+                    <!-- The logo text is replaced with an image in CSS background image -->
+                    <li><a href="#Home">Home</a></li>
+                    <li><a href="#AboutUs">Abount Us</a></li>
+                    <li><a href="#Servies">Servies</a></li>
+                    <li><a href="#Team">Team</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <li>
+                        <div>
+                            <form id="form">
+                                <input type="search" id="search" name="search" placeholder="Search">
+                            </form>
+                            <button>click<i class="fa fa-play"></i></button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <!-- finish navigation -->
+
+            <!-- start top banner -->
+            <div class="banner">
+                <h1>Welcome to Three Star Media</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat maxime quam ratione recusandae
+                    labore soluta dicta odio, asperiores numquam veritatis et voluptatibus quis dolorum rem nisi!
+                    Minima,
+                    itaque commodi.</p>
+                <a href="#Contact" class="banner-btn">Connect with us <i class="fa fa-play"></i></a>
+            </div>
+            <!-- finish banner -->
+        </header>
+        <!-- finish header -->
+
+        <!-- start section-->
+        <div class="section-wrap">
+            <section id="AboutUs">
+                 <!-- flex box area -->
+                <div class="about-us">
+                    <div cass="about-text">
+                        <h2>About Us</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat voluptatum eos est reprehenderit omnis similique voluptatem ipsam voluptates eius nihil iste commodi iure expedita quibusdam, dolore laboriosam ducimus. Vitae, quos.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil magni maxime labore voluptates exercitationem iure voluptatibus libero, fuga sed dolor tempora in consectetur repudiandae. Laborum deserunt ea officiis recusandae ab.</p>
                     </div>
-                </li>
-            </ul>
-        </nav>
-        <div class="banner">
-            <h1>Welcome to Three Star Media</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat maxime quam ratione recusandae
-                labore soluta dicta odio, asperiores numquam veritatis et voluptatibus quis dolorum rem nisi! Minima,
-                itaque commodi.</p>
-            <button class="banner-btn">Connect with us <i class="fa fa-play"></i></button>
+                    <div cass="about-img">
+                        <img src="./images/about-us.jpg" alt="company picture">
+                    </div>
+                </div>
+
+
+
+            </section>
         </div>
-    </header>
-
-
-    </section>
-</div>
+        <!-- finish section -->
+    </div>
 </body>
 
 </html>
