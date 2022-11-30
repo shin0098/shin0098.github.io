@@ -24,27 +24,25 @@
     <title>final-project</title>
 </head>
 
-<body>  
+<body>
     <div class="wrap">
         <!-- start header -->
         <header class="header-area">
             <!-- start navigation -->
-            <nav>
-                <ul>
-                    <li class="main-logo"><a id="Home"><img src="./images/logo.png" alt="logo"></a></li>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="main-logo clearfix"><a id="Home"><img src="./images/logo.png" alt="logo"></a></li>
                     <li><a href="#Home">Home</a></li>
-                    <li><a href="#AboutUs">Abount Us</a></li>
+                    <li><a href="#AboutUs">About Us</a></li>
                     <li><a href="#Servies">Servies</a></li>
                     <li><a href="#Team">Team</a></li>
                     <li><a href="#Contact">Contact</a></li>
-                    <li>
-                        <div>
-                            <form id="form">
-                                <input type="search" id="search" name="search" placeholder="Search">
-                            </form>
-                            <button>click<i class="fa fa-play"></i></button>
-                        </div>
-                    </li>
+                    <div class="serch-box">
+                        <form id="form">
+                            <input type="search" id="search" name="search" placeholder="Search">
+                        </form>
+                        <button class="serch-button"><i class="fas fa-search"></i></button>
+                    </div>
                 </ul>
             </nav>
             <!-- finish navigation -->
@@ -52,13 +50,14 @@
             <!-- start top banner -->
             <div class="banner-wrap">
                 <div class="banner">
-                <h1>Welcome to Three Star Media</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat maxime quam ratione recusandae
-                    labore soluta dicta odio, asperiores numquam veritatis et voluptatibus quis dolorum rem nisi!
-                    Minima,
-                    itaque commodi.</p>
-                <a href="#Contact" class="banner-btn">Connect with us <i class="fa fa-play"></i></a>
-            </div>
+                    <h1>Welcome to Three Star Media</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel placeat maxime quam ratione
+                        recusandae
+                        labore soluta dicta odio, asperiores numquam veritatis et voluptatibus quis dolorum rem nisi!
+                        Minima,
+                        itaque commodi.</p>
+                    <a href="#Contact" class="banner-btn">Connect with us <i class="fa fa-play"></i></a>
+                </div>
             </div>
             <!-- finish banner -->
         </header>
@@ -203,7 +202,7 @@
                             <label for="message">Message</label>
                             <input type="text" id="message" name="message">
 
-                            
+
                             <button type="submit">Send</button>
                         </form>
                         <!-- finish form -->
@@ -258,8 +257,8 @@
                     &copy;Copyright Three Star Media, 2020
                 </p>
                 <p>
-                All images are taken from <a href="https://unsplash.com/">Unsplash</a>
-            </p>
+                    All images are taken from <a href="https://unsplash.com/">Unsplash</a>
+                </p>
             </div>
         </footer>
         <!-- finish footer -->
