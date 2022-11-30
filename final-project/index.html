@@ -9,6 +9,12 @@
     <!-- css reset -->
     <link rel="stylesheet" href="./css/reset.css">
 
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
     <!-- font-awesome Icon link -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -25,8 +31,7 @@
             <!-- start navigation -->
             <nav>
                 <ul>
-                    <li class="main-logo"><a id="Home">logo</a></li>
-                    <!-- The logo text is replaced with an image in CSS background image -->
+                    <li class="main-logo"><a id="Home"><img src="./images/logo.png" alt="logo"></a></li>
                     <li><a href="#Home">Home</a></li>
                     <li><a href="#AboutUs">Abount Us</a></li>
                     <li><a href="#Servies">Servies</a></li>
@@ -192,11 +197,13 @@
                         <form action="#">
                             <h3>Send Us a message</h3>
                             <label for="name">Full Name</label>
-                            <input type="text" id="name">
+                            <input type="text" id="name" name="name">
                             <label for="mail">Email</label>
-                            <input type="text" id="mail">
+                            <input type="text" id="mail" name="mail">
                             <label for="message">Message</label>
-                            <input type="text" id="message">
+                            <input type="text" id="message" name="message">
+
+                            
                             <button type="submit">Send</button>
                         </form>
                         <!-- finish form -->
