@@ -1,15 +1,163 @@
-/* defaults */
+/*defaults */
+/* Mobile-first  */
 
 
 body {
     font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
 }
 
+a{
+    text-decoration: none;
+    color: #222;
+}
 
 .wrap {
     display: block;
     max-width: 1200px;
     margin: 0 auto;
+    background-color: red;
+    line-height: 1.4;
+    
+}
+
+
+header, footer {
+    background-color: #222;
 
 }
 
+
+
+
+
+.clearfix::after {
+    content:"";
+    clear: both;
+    display: table;
+}
+
+
+/* start:nav */
+.nav {
+    margin: 0 auto;
+   font-size: 1.2rem;
+   padding: 25px;
+}
+
+
+
+
+.nav-list li{
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+ 
+}
+
+.nav-list li:hover{
+    background-color: #c78c06;
+    color: #222;
+}
+
+.nav-list li:hover a {
+    color: #222;
+}
+
+.nav-list li a {
+    color: #c78c06;
+}
+
+.main-logo{
+    width: 100%;
+}
+
+.main-logo img{
+    float: left;
+}
+
+
+.nav-list li:nth-child(1){
+    background-color: #c78c06;
+}
+
+
+
+.serch-box input {
+    width: 95%;
+    padding: 12px;
+    float: left;
+    font-size: 1.2rem;
+
+}
+
+.serch-box button{
+    width: 5%;
+    padding: 12px;
+    float: right;
+    background-color: transparent;
+    border: 1px solid #c78c06;
+
+}
+
+ .fa-search{
+    color: #c78c06;
+    background-color: transparent;
+    font-size: 25px;
+    
+}
+
+/* end:nav */
+
+/* start: header banner */
+.banner-wrap{
+    background-image: url("../images/main-banner.jpg");
+    background-size: cover;
+    padding: 110px 0;
+}
+
+.banner {
+    background: rgba(0,0,0,0.5);
+
+}
+
+.banner h1{
+    font-size: 5rem;
+    font-weight: 800;
+    line-height: 1.5;
+    color: white;
+}
+
+.banner {
+    padding: 110px 25px 25px 25px;
+    color: white;
+}
+
+.banner-btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 40px;
+    background-color: #c78c06;
+    font-size: 1.5rem;
+
+}
+
+/* end:banner */
+/********* end:header ***********/
+
+
+/* link button */
+.btn {
+    display: inline-block;
+    margin-top: 25px;
+    padding: 40px;
+    background-color: #222;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/*  */
+@media screen and(min-width:760px) {
+
+
+}
