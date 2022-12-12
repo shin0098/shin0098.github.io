@@ -4,7 +4,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 a{
@@ -12,12 +12,14 @@ a{
     color: #222;
 }
 
+
 .wrap {
     display: block;
     max-width: 1200px;
     margin: 0 auto;
-    background-color: red;
+   
     line-height: 1.4;
+    font-weight: 500;
     
 }
 
@@ -27,7 +29,15 @@ header, footer {
 
 }
 
+h2 {
+    font-size: 4rem;
+    font-weight: 800;
+}
 
+section {
+    padding: 25px;
+    background-color: #ffe6ac;
+}
 
 
 
@@ -36,6 +46,11 @@ header, footer {
     clear: both;
     display: table;
 }
+
+.fa-play {
+    padding-left: 15px;
+}
+
 
 
 /* start:nav */
@@ -139,12 +154,13 @@ header, footer {
     padding: 40px;
     background-color: #c78c06;
     font-size: 1.5rem;
-
 }
 
 /* end:banner */
 /********* end:header ***********/
 
+
+/*******Start : Main *******/
 
 /* link button */
 .btn {
@@ -156,8 +172,189 @@ header, footer {
     color: white;
 }
 
+
+.about-us{
+    background-color: #ffe6ac;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-text h2 {
+    margin: 40px 0;
+}
+
+.about-text p:nth-child(3){
+    margin: 30px 0;
+}
+
+/* end: about us*/
+
+/* start : our servies */
+#Servies,
+#Team {
+    margin-top: 90px;
+    background-color: #fff;
+    display: grid;
+
+}
+
+#Servies h3 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    padding: 40px 0;
+}
+
+.servies-box {
+    background-color: #ffe6ac;
+    margin-top: 25px;
+}
+
+
+.servies-box img {
+    width: 100%;
+}
+
+.servies-wrap {
+    padding: 25px;
+}
+
+/* end:servies */
+
+
+/* start:vision */
+
+#Vision {
+    background-image: url("../images/vision.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position-y: 50%;
+    color: #fff;
+}
+
+#Vision h2{
+    margin: 30px 0;
+}
+
+
+/* end:vision */
+
+/* start:team */
+
+.team-wrap {
+    margin-top: 25px;
+    background-color: #ffe6ac;
+}
+
+
+.team-box img {
+    width: 100%;
+}
+
+
+.team-box h3 {
+    font-size: 3.5rem;
+    font-weight: 800;
+    padding: 30px 0 10px 0;
+}
+
+
+.team-box:not(.team1,.team2)
+{
+    padding: 25px;
+}
+
+.team-box h3+p {
+    font-size: 1.8rem;
+    font-weight: 800;
+    border-bottom: 2px solid #be7d00;
+}
+
+
+.team-box p:nth-child(3){
+    margin-top: 25px;
+    
+}
+
+/* end:team */
+
+/* start:contact */
+#Contact {
+    background-color: white;
+}
+
+#Contact h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.contact-box form {
+    margin-top: 15px;
+}
+
+.contact-box form input {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+}
+
+.contact-box button {
+    background-color:#222;
+    color:#c78c06;
+    padding: 5px;
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
+.contact2 h3{
+    margin-top: 30px;
+}
+
+.table-wrap table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table-wrap th, tr, td {
+        border: 1px solid #222;
+        padding: 13px;
+}
+
+.table-wrap thead {
+    background-color: #ffe6ac;
+}
+
+.contact3 h3 {
+    margin-top: 30px;
+}
+
+.map {
+    margin-top: 10px;
+}
+
+.map iframe {
+    width: 100%;
+}
+
+/* end:contact */
+
+/* start:footer */
+
+footer {
+    color: #c78c06;
+    padding: 40px 0 15px 25px;
+}
+
+.footer-wrap p:nth-child(2){
+    margin-top: 10px;
+}
+
 /*  */
 @media screen and(min-width:760px) {
-
+    
 
 }
