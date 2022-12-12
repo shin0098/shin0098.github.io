@@ -7,6 +7,12 @@ body {
     font-size: 20px;
 }
 
+
+
+iframe {
+    width: 50%;
+}
+
 a{
     text-decoration: none;
     color: #222;
@@ -17,9 +23,9 @@ a{
     display: block;
     max-width: 1200px;
     margin: 0 auto;
-   
     line-height: 1.4;
     font-weight: 500;
+    width: 100%;
     
 }
 
@@ -35,6 +41,7 @@ h2 {
 }
 
 section {
+    width: 100%;
     padding: 25px;
     background-color: #ffe6ac;
 }
@@ -50,6 +57,7 @@ section {
 .fa-play {
     padding-left: 15px;
 }
+
 
 
 
@@ -89,6 +97,7 @@ section {
 
 .main-logo img{
     float: left;
+
 }
 
 
@@ -128,7 +137,7 @@ section {
 /* start: header banner */
 .banner-wrap{
     background-image: url("../images/main-banner.jpg");
-    background-size: cover;
+    background-size: cover cover;
     padding: 110px 0;
 }
 
@@ -163,6 +172,11 @@ section {
 
 /*******Start : Main *******/
 
+main {
+    width: 100%;
+}
+
+
 /* link button */
 .btn {
     display: inline-block;
@@ -175,6 +189,7 @@ section {
 
 
 .about-us{
+    
     background-color: #ffe6ac;
     display: flex;
     flex-direction: column-reverse;
@@ -200,6 +215,7 @@ section {
     margin-top: 40px;
     background-color: #fff;
     display: grid;
+    width: inherit;
 
 }
 
@@ -358,8 +374,14 @@ footer {
     margin-top: 10px;
 }
 
+
+
+
 /*  */
 @media screen and(min-width:760px) {
     
 
 }
+
+
+
