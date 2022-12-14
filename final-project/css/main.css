@@ -7,12 +7,6 @@ body {
     font-size: 20px;
 }
 
-
-
-iframe {
-    width: 50%;
-}
-
 a{
     text-decoration: none;
     color: #222;
@@ -25,7 +19,6 @@ a{
     margin: 0 auto;
     line-height: 1.4;
     font-weight: 500;
-    width: 100%;
     
 }
 
@@ -41,7 +34,6 @@ h2 {
 }
 
 section {
-    width: 100%;
     padding: 25px;
     background-color: #ffe6ac;
 }
@@ -137,12 +129,12 @@ section {
 /* start: header banner */
 .banner-wrap{
     background-image: url("../images/main-banner.jpg");
-    background-size: cover cover;
+    background-size: cover;
     padding: 110px 0;
 }
 
 .banner {
-    background: rgba(0,0,0,0.5);
+    gg
 
 }
 
@@ -172,11 +164,6 @@ section {
 
 /*******Start : Main *******/
 
-main {
-    width: 100%;
-}
-
-
 /* link button */
 .btn {
     display: inline-block;
@@ -189,7 +176,6 @@ main {
 
 
 .about-us{
-    
     background-color: #ffe6ac;
     display: flex;
     flex-direction: column-reverse;
@@ -215,7 +201,6 @@ main {
     margin-top: 40px;
     background-color: #fff;
     display: grid;
-    width: inherit;
 
 }
 
@@ -378,10 +363,86 @@ footer {
 
 
 /*  */
-@media screen and(min-width:760px) {
+@media screen and (min-width:760px) {
     
 
+body {
+    width: 100%;
+    background-color: red;
+}
+
+main h2 {
+    font-size: 3.2rem;
+    font-weight: 800;
+}
+
+.wrap {
+    max-width: none;
+}
+
+.nav {
+    padding: 0 120px;
+}
+
+.banner {
+    margin: 50px 120px;
 }
 
 
 
+/* about */
+
+.about-us {
+    padding: 0 120px;
+    flex-direction: row-reverse;
+    flex: 1 1 auto;
+}
+
+.about-img{
+    flex:1;
+}
+
+
+
+
+.about-text {
+    flex:1;
+    text-decoration: ;
+
+}
+
+.about-text h2 {
+    margin:0;
+}
+
+.about-text p:nth-child(3){
+    margin: 20px 0;
+}
+
+.nav-list li {
+    display: inline-block;
+}
+
+
+.nav-list li:not(.main-logo) {
+
+    padding: 30px;
+}
+
+.main-logo {
+    width: 50px;
+    display: inline-block;
+}
+
+.main-logo img{
+    float: none;
+}
+
+.serch-box {
+    width: 280px;
+    float: right;
+}
+
+
+
+}
