@@ -649,5 +649,9 @@ footer {
     grid-area:1/2/2/3;
 }
 
+/*************Footer**************/
 
+footer {
+    padding: 40px 160px;
+}
 }
