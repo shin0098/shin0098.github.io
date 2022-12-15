@@ -163,15 +163,16 @@ img {
 
 .map iframe {
     width: 100%;
+    height: 450px;
 }
 
-.banner-wrap{
+.banner-wrap {
     background-image: url("../images/main-banner.jpg");
     background-size: cover;
     padding: 70px 0;
 }
 
-.banner h1{
+.banner h1 {
     font-size: 2.3rem;
     font-weight: 800;
     line-height: 1.4;
@@ -180,7 +181,7 @@ img {
 }
 
 .banner {
-    background:rgb(0,0,0,0.5);
+    background: rgb(0, 0, 0, 0.5);
     padding: 40px 0 20px 10px;
     color: white;
 }
@@ -208,7 +209,7 @@ img {
     color: white;
 }
 
-.about-us{
+.about-us {
     width: 100%;
     background-color: #ffe6ac;
     display: flex;
@@ -223,7 +224,7 @@ img {
     margin: 20px 0;
 }
 
-.about-text p:nth-child(3){
+.about-text p:nth-child(3) {
     margin: 10px 0;
 }
 
@@ -266,13 +267,13 @@ img {
 
 #Vision {
     background-image: url("../images/vision.jpg");
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 20%;
     color: #fff;
 }
 
-#Vision h2{
+#Vision h2 {
     font-size: 1.4rem;
     margin: 10px 0;
 }
@@ -282,7 +283,7 @@ img {
 .vision-btn {
     border: 1px solid #c78c06;
     margin-top: 15px;
-    background-color: rgb(0,0,0,0.6);
+    background-color: rgb(0, 0, 0, 0.6);
 }
 
 /* End:Vision */
@@ -294,15 +295,15 @@ img {
     background-color: #ffe6ac;
 }
 
-.team-heading h2{
+.team-heading h2 {
     margin-bottom: 10px;
 }
 
 .team-wrap {
-    margin-top:12px;
+    margin-top: 12px;
 }
-.team-box:not(.team1,.team3)
-{
+
+.team-box:not(.team1, .team3) {
     padding: 10px 10px 20px 10px;
 }
 
@@ -327,7 +328,7 @@ img {
     background-color: white;
 }
 
-#Contact h2{
+#Contact h2 {
     font-size: 2rem;
 }
 
@@ -346,19 +347,19 @@ img {
     margin: 5px 0;
     width: 100%;
     box-sizing: border-box;
-    -webkit-box-sizing:border-box;
+    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
 }
 
 .contact-box button {
-    background-color:#222;
-    color:#c78c06;
+    background-color: #222;
+    color: #c78c06;
     padding: 5px;
     font-size: 0.8rem;
     margin-top: 15px;
 }
 
-.contact2 h3{
+.contact2 h3 {
     margin-top: 30px;
 }
 
@@ -367,9 +368,11 @@ img {
     margin-top: 10px;
 }
 
-.table-wrap th, tr, td {
-        border: 1px solid #222;
-        padding: 13px;
+.table-wrap th,
+tr,
+td {
+    border: 1px solid #222;
+    padding: 13px;
 }
 
 .table-wrap thead {
@@ -391,7 +394,7 @@ footer {
     padding: 30px 0 25px 25px;
 }
 
-.footer-wrap p:nth-child(2){
+.footer-wrap p:nth-child(2) {
     margin-top: 10px;
 }
 
@@ -403,6 +406,7 @@ footer {
     body {
         font-size: 20px;
     }
+
     .wrap {
         max-width: none;
     }
@@ -423,17 +427,17 @@ footer {
         font-size: 1.3rem;
     }
 
-    .nav-list li:not(.main-logo){
+    .nav-list li:not(.main-logo) {
         margin-top: 20px;
     }
 
     .nav-list li:nth-child(1) {
         padding: 0;
         margin-right: 50px;
- 
+
     }
-    
-    .main-logo a img{
+
+    .main-logo a img {
         width: 100px;
     }
 
@@ -444,9 +448,10 @@ footer {
         float: right;
         margin-top: 30px;
     }
-/* banner */
 
-    .banner{
+    /* banner */
+
+    .banner {
         margin: 0 160px;
         padding: 60px 60px 25px 30px;
     }
@@ -456,14 +461,14 @@ footer {
         margin-bottom: 50px;
     }
 
-    .banner-btn{
+    .banner-btn {
         padding: 35px 40px;
         font-size: 1.3rem;
     }
 
     /* about-us */
 
-    .about-us{
+    .about-us {
         width: inherit;
         display: flex;
         flex-direction: row-reverse;
@@ -472,223 +477,225 @@ footer {
     }
 
     .about-us h2,
-    .service-heading h2{
+    .service-heading h2 {
         font-size: 5rem;
         margin: 0 0 30px 0;
         font-weight: 700;
     }
 
-    .about-img{
+    .about-img {
         flex: 1;
         padding-right: 10px;
     }
 
-    .about-text{
-        flex:1;
+    .about-text {
+        flex: 1;
         padding-left: 10px;
 
     }
 
-    .about-text p:nth-child(3){
+    .about-text p:nth-child(3) {
         margin: 20px 0;
     }
-    
+
 
     /********************about us***********************/
 
 
-/***********************Servies*********************/
-#Servies {
-    padding: 30px 160px;
-}
+    /***********************Servies*********************/
+    #Servies {
+        padding: 30px 160px;
+    }
 
-.servies-wrap {
-    padding: 20px;
-}
+    .servies-wrap {
+        padding: 20px;
+    }
 
-.servies{
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    column-gap: 15px;
-}
-
-
-.digital{
-   
-    grid-area: 1/1/2/4;
-}
-
-.marketing{
-    grid-area: 1/4/2/7;
-}
-
-.video {
-    grid-area: 2/1/3/3;
-    height: fit-content;
-}
-
-.web {
-    grid-area: 2/3/3/5; 
-    height: fit-content;
-}
-
-.print {
-    grid-area: 2/5/3/7;
-    height: fit-content;
-}
-
-#Servies h3 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-}
-
-.servies-btn {
-    width: 100%;
-    padding: 45px 0;
-    font-size: 2rem;
-    text-align: center;
-}
-
-/**********************Vision*************************/
-#Vision{
-    padding: 30px 160px;
-    background-size: cover;
-    background-position-y: 50%;
-}
-
-#Vision h2{
-    font-size: 3rem;
-    margin: 20px 0;
-}
+    .servies {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        column-gap: 15px;
+    }
 
 
-.vision-btn {
-    padding: 45px;
-    font-size: 2rem;
-    margin-top: 35px;
-    
+    .digital {
 
-}
+        grid-area: 1/1/2/4;
+    }
 
-/* End:Vision */
+    .marketing {
+        grid-area: 1/4/2/7;
+    }
 
-/*******************************Start:Team************************************  */
+    .video {
+        grid-area: 2/1/3/3;
+        height: fit-content;
+    }
 
-#Team {
-    padding: 0 160px;
-}
+    .web {
+        grid-area: 2/3/3/5;
+        height: fit-content;
+    }
 
-.team-heading h2 {
-    font-size: 5rem;
-}
+    .print {
+        grid-area: 2/5/3/7;
+        height: fit-content;
+    }
 
-.team-wrap {
-    display: flex;
-    flex-wrap:inherit;
-   
-}
+    #Servies h3 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
 
-#Team .team-box  {
-    flex-basis:50%;
-    padding: 0;
-}
+    .servies-btn {
+        width: 100%;
+        padding: 45px 0;
+        font-size: 2rem;
+        text-align: center;
+    }
 
+    /**********************Vision*************************/
+    #Vision {
+        padding: 30px 160px;
+        background-size: cover;
+        background-position-y: 50%;
+    }
 
-
-.team-wrap {
-    margin-top: 0;
-}
-
-.team-box h3{
-    font-size: 3.2rem;
-    margin: 30px;
-}
-
-.team-box p {
-    margin: 0 30px;
-
-}
-
-.team-box h3+p{
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
+    #Vision h2 {
+        font-size: 3rem;
+        margin: 20px 0;
+    }
 
 
-.team4 {
-    order:-1;
-}
-
-.team-box img{
-    width: 100%;
-    height: 100%;
-}
+    .vision-btn {
+        padding: 45px;
+        font-size: 2rem;
+        margin-top: 35px;
 
 
-/*************************************Team******************************************/
+    }
 
-/*****************************************Contact US*******************************************/
+    /* End:Vision */
 
-#Contact {
-    padding: 80px 160px;
-   margin-bottom: 50px;
-}
+    /*******************************Start:Team************************************  */
 
-#Contact h2{
-    font-size: 5rem;
-    margin-bottom: 40px;
-}
+    #Team {
+        padding: 0 160px;
+    }
 
-.contact3 h3 {
-    margin-top: 0;
-}
+    .team-heading h2 {
+        font-size: 5rem;
+    }
 
-#Contact h3 {
-    font-size: 3rem;
-}
+    .team-wrap {
+        display: flex;
+        flex-wrap: inherit;
 
-.contact-box form input {
-    padding: 10px 0;
-    margin-bottom: 10px;
-}
+    }
 
-.contact {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(1, 1fr);
-    column-gap: 15px;
-    height: fit-content;
-}
-
-.contact1 {
-    grid-area:1/1/2/2;
-}
-
-.contact2 {
- grid-area: 2/1/3/3;
- height: fit-content;
+    #Team .team-box {
+        flex-basis: 50%;
+        padding: 0;
+    }
 
 
-}
 
-.contact3 {
-    grid-area:1/2/2/3;
-    
-    
-}
+    .team-wrap {
+        margin-top: 0;
+    }
 
-#message{
-    height: 250px;
-}
+    .team-box h3 {
+        font-size: 3.2rem;
+        margin: 30px;
+    }
 
-.contact-box button {
-    font-size: 1.4rem;
-}
-/*************Footer**************/
+    .team-box p {
+        margin: 0 30px;
 
-footer {
-    padding: 40px 160px;
-}
+    }
+
+    .team-box h3+p {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+
+    .team4 {
+        order: -1;
+    }
+
+    .team-box img {
+        width: 100%;
+        height: 100%;
+    }
+
+
+    /*************************************Team******************************************/
+
+    /*****************************************Contact US*******************************************/
+
+    #Contact {
+        padding: 80px 160px;
+        margin-bottom: 50px;
+    }
+
+    #Contact h2 {
+        font-size: 5rem;
+        margin-bottom: 40px;
+    }
+
+    .contact3 h3 {
+        margin-top: 0;
+    }
+
+    #Contact h3 {
+        font-size: 3rem;
+    }
+
+    .contact-box form input {
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
+
+    .contact {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        column-gap: 15px;
+        height: fit-content;
+    }
+
+    .contact1 {
+        grid-area: 1/1/2/2;
+    }
+
+    .contact2 {
+        padding-top: 30px;
+        grid-area: 2/1/3/3;
+        height: fit-content;
+
+
+    }
+
+    .contact3 {
+        grid-area: 1/2/2/3;
+
+
+    }
+
+    #message {
+        height: 250px;
+    }
+
+    .contact-box button {
+        font-size: 1.4rem;
+    }
+
+    /*************Footer**************/
+
+    footer {
+        padding: 40px 160px;
+    }
 }
