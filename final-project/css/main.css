@@ -285,6 +285,104 @@ img {
     background-color: rgb(0,0,0,0.6);
 }
 
+/* End:Vision */
+
+
+/******************************************Our Team***************************************  */
+
+.team-wrap {
+    background-color: #ffe6ac;
+}
+
+.team-heading h2{
+    margin-bottom: 10px;
+}
+
+
+.team-box:not(.team1,.team3)
+{
+    padding: 10px 10px 20px 10px;
+}
+
+
+.team-box h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 10px 0 5px 0;
+}
+
+.team-box h3+p {
+    font-size: 1.2rem;
+    font-weight: 800;
+    border-bottom: 2px solid #be7d00;
+    margin-bottom: 8px;
+}
+
+#Contact {
+    background-color: white;
+}
+
+#Contact h3 {
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.contact-box form {
+    margin-top: 15px;
+}
+
+.contact-box form input {
+    display: block;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.contact-box button {
+    background-color:#222;
+    color:#c78c06;
+    padding: 5px;
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
+.contact2 h3{
+    margin-top: 30px;
+}
+
+.table-wrap table {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.table-wrap th, tr, td {
+        border: 1px solid #222;
+        padding: 13px;
+}
+
+.table-wrap thead {
+    background-color: #ffe6ac;
+}
+
+.contact3 h3 {
+    margin-top: 30px;
+}
+
+
+
+/* end:contact */
+
+/* start:footer */
+
+footer {
+    color: #c78c06;
+    padding: 40px 0 15px 25px;
+}
+
+.footer-wrap p:nth-child(2){
+    margin-top: 10px;
+}
+
+
 /**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************Desktop*********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 
 @media screen and (min-width:760px) {
@@ -457,5 +555,47 @@ img {
     
 
 }
+
+/* End:Vision */
+
+/*******************************Start:Team************************************  */
+
+.team-wrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.team-box{
+    width: inherit;
+    flex-basis: 50%;
+    flex-direction: column;
+    
+
+}
+
+
+
+
+
+/* .team1 {
+    order:1;
+}
+
+.team2 {
+    order:2;
+
+}
+
+.team3{
+    order:3;
+}
+
+.team4{
+    order:4;
+
+} */
 
 }
