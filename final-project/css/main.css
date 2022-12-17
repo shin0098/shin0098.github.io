@@ -402,13 +402,13 @@ td {
 .top {
     display: inline-block;
     background-color: #faac36;
-    width: 50px;
-    height: 50px;
+    width: 47px;
+    height: 47px;
     text-align: center;
     border-radius: 50%;
     position: fixed;
     bottom: 30px;
-    right: 25px;
+    right: 23px;
   }
 
   .fa-chevron-up{
