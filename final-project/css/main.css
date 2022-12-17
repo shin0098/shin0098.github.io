@@ -402,19 +402,19 @@ td {
 .top {
     display: inline-block;
     background-color: #faac36;
-    width: 47px;
-    height: 47px;
+    width: 45px;
+    height: 45px;
     text-align: center;
     border-radius: 50%;
     position: fixed;
     bottom: 30px;
-    right: 23px;
+    right: 22px;
   }
 
   .fa-chevron-up{
     color: white;
-    font-size: 25px;
-    padding-top: 8PX;
+    font-size: 23px;
+    padding-top: 9PX;
   }
 
   .top:hover {
