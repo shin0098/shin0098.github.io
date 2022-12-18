@@ -460,9 +460,10 @@ footer {
     .nav-list li {
         display: inline-block;
         width: inherit;
-        padding: 15px 30px;
+        padding: 15px 50px;
         float: left;
-        font-size: 1.3rem;
+        font-size: 1.4rem;
+        margin-right: 10px;
     }
 
     .nav-list li:not(.main-logo) {
@@ -471,7 +472,7 @@ footer {
 
     .nav-list li:nth-child(1) {
         padding: 0;
-        margin-right: 50px;
+        margin-right: 100px;
 
     }
 
@@ -482,11 +483,11 @@ footer {
 
     .search-box {
         right: 0;
-        width: 250px;
+        width: 270px;
         float: right;
         margin-top: 30px;
     }
-
+    .search-box #search {}
     /* banner */
 
     .banner {
